@@ -5,8 +5,8 @@ from face_landmarks_detection import initialize_face_detection, process_input_im
 from file_handler import dataset_path, shape_predictor_path, get_file_path, is_valid_file, clear_results
 
 
+# initialize the project
 def initialize():
-
     # get Dlib shape detector and predictor
     [detector, predictor] = initialize_face_detection(shape_predictor_path)
 
